@@ -17,4 +17,7 @@ public class Koonus{
     public double pindala(){
         return 3.14* r *(r+m);
     }
+    public double kaal(){
+        return 1.0/3*3.14*r*r*h/1000*560;
+    }
 }
